@@ -13,8 +13,9 @@ model = ChatGoogleGenerativeAI(
     max_output_tokens=512,
 )
 '''
-temprature = param, decide how creative or deterministic model will be range(0,2)
-Lower values (e.0 - 0.3) - More deterministic and predictable.
-Higher values (0.7 - 1.5) - More-tandom, creative, and diverse.  '''
+temprature = param, decide how output of model everytime when same prompt passed, 
+range(0,2)
+Lower values (e.0 - 0.3) - Most of time same to same.
+Higher values (0.7 - 1.5) - generate different everytime for same promt.  '''
 result = model.invoke('what is capital of china?')
 print(result.text)  #gets text information only
