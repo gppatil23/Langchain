@@ -20,8 +20,9 @@ huggingface-hub
 
 # Environment Variable Management
 python-dotenv
-numpy
 scikit-learn
 
 #ui
 streamlit
+#structured output
+pydantic
