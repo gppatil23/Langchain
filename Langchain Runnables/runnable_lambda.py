@@ -31,11 +31,10 @@ result = final_chain.invoke({'topic':'AI'})
 final_result = """joke - {} \n word count - {}""".format(result['joke'],result['word_count'])
 print(final_result)
 
-
 '''
 DEF ----RunnableLambda is a runnable primitive that allows you to apply custom Python functions
 within an Al pipeline.
 
 It acts as a middleware between different Al components, enabling preprocessing,
 transformation, API calls, filtering, and post-processing in a LangChain workflow.
-'''
+''' 
