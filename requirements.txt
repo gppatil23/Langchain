@@ -27,3 +27,6 @@ scikit-learn
 streamlit
 #structured output
 pydantic
+
+#Document reader
+pypdf
