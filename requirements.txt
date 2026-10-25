@@ -30,3 +30,4 @@ pydantic
 
 #Document reader
 pypdf
+bs4
