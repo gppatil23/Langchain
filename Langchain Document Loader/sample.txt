@@ -1,0 +1,17 @@
+LangChain document loaders are tools that import data from files, URLs, APIs, or databases into a structured format that language models can process.
+What LangChain Document Loaders Are
+Document loaders are part of LangChain’s data ingestion layer. They convert raw content—PDFs, text files, web pages, spreadsheets, emails, and more—into Document objects containing:
+page_content — the extracted text
+metadata — source info like file name, URL, page number
+This structure allows downstream steps like splitting, embedding, and retrieval.
+Major Categories of Loaders
+LangChain provides loaders across several domains:
+File-based loaders
+PDF: PyPDFLoader, PDFPlumberLoader
+Text: TextLoader
+Markdown: UnstructuredMarkdownLoader
+Word/Excel: UnstructuredWordDocumentLoader, UnstructuredExcelLoader
+Web loaders
+WebBaseLoader for general websites
+SitemapLoader for crawling entire sites
+AsyncHtmlLoader for faster parallel scraping
