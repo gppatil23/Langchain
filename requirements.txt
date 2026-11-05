@@ -31,3 +31,9 @@ pydantic
 #Document reader
 pypdf
 bs4
+
+#for Langchain Retrieval
+faiss-cpu
+chromadb
+tiktoken
+wikipedia
